@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>jQuery formFocus</title>
+  <link rel="stylesheet" media="screen" href="styles.css">
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <h1>jQuery formFocus</h1>
+    </div>
+    <div id="content">
+      <form action="#" id='form' method="post">
+        <label for="fname">Enter Name</label>
+        <input type="text" name="fname" id="fname" value="">
+        <label for="email">Enter Email</label>
+        <input type="text" name="email" id="email" value="">
+        <label for="message">Enter Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+      <div id="results"></div>
+    </div>
+  </div><!-- wrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="jquery.formfocus.js"></script>
+  <script>
+    jQuery(function($) {
+      $('#form').formFocus();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/******************************
+*  Reset
+******************************/
+body, h1, h2, h3, h4, h5, h6, p, form, input, textarea, a img, ul, ol, dl, #nav ul, #nav ul li, #top-nav ul, #top-nav ul li { border: none; margin: 0; padding: 0; }
+/******************************
+*  Base
+******************************/
+h1 { margin: 0 0 20px; }
+input[type=text], textarea { border: 1px solid #ddd; border-radius: 10px; display: block; font-size: 16px; margin: 0 0 10px; padding: 5px 5px; width: 190px; outline: none; position: relative; }
+input[type=submit] { background: #86b637; border: 1px solid #ccc; color: #fff; cursor: pointer; border-radius: 10px; font-size: 12px; padding: 5px 15px; text-transform: uppercase;}
+label { position: absolute; z-index: 100; padding: 5px; }
+/******************************
+*  Fonts
+******************************/
+body, * { color: #202020; font-family: Helvetica, Arial, Sans-serif; }
+/******************************
+*  Header
+******************************/
+/******************************
+*  Content
+******************************/
+#results { margin: 20px 0 0; }
+#data { background: #fefdb8; border-radius: 10px; padding: 0 10px; }
+/******************************
+*  Footer
+******************************/
+/******************************
+*  Common
+******************************/
+#wrap { border: 1px solid #ddd; border-radius: 10px; margin: 50px auto 0; padding: 30px; width: 400px; }
+.container { margin: 0 auto; width: ; }
+
+.clear:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clear {display:inline-block;}
+/* Hide from IE Mac \*/
+  .clear {display:block;}
+/* End hide from IE Mac */
+  
